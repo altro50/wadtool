@@ -18,7 +18,7 @@ struct UnpackedInfo {
 fn parse_wad_table(input: &[u8]) -> [u32; 512] {
     let mut ret = [0u32; 512];
 
-    for i in 0 .. 256{
+    for i in 0 .. 512{
         ret[i] = 
                 ((input[i * 4] as u32) <<  0) +
                 ((input[i * 4 + 1] as u32) <<  8) +
