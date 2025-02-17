@@ -300,6 +300,299 @@ static S1_NTSC_FINAL: Wad = Wad {
 
 
 
+// Most of this is information I've gathered from other people on the Mod the Dragon Discord.
+// I am not certain how accurate it all is and have done minimal testing myself.
+// However, I'm 80% certain that the levels are correct at least.
+static S2_NTSC_FINAL: Wad = Wad {
+    name: "Spyro 2: Ripto's Rage (NTSC Final)",
+    filenames: &[
+        // Unknown
+        "0.wad",
+        "1.wad",
+        "2.wad",
+        "3.wad",
+        "4.wad",
+        "5.wad",
+        "6.wad",
+        "7.wad",
+        "8.wad",
+        "9.wad",
+        "10.wad",
+        "11.wad",
+        "12.wad",
+        "13.wad",
+
+        // Level overlay and data wads
+        // Overlays are loaded at $8006d264 in this build
+        // Numbering each level by level ID as I'm assuming that's how S1 and S3 are numbering levels in this program
+        "level_10_summer_forest_code.ovl",
+        "level_10_summer_forest_data.wad",
+
+        "level_11_glimmer_code.ovl",
+        "level_11_glimmer_data.wad",
+        
+        "level_12_idol_springs_code.ovl",
+        "level_12_idol_springs_data.wad",
+
+        "level_13_colossus_code.ovl",
+        "level_13_colossus_data.wad",
+
+        "level_21_hurricos_code.ovl",
+        "level_21_hurricos_data.wad",
+
+        "level_22_aquaria_towers_code.ovl",
+        "level_22_aquaria_towers_data.wad",
+        
+        "level_23_sunny_beach_code.ovl",
+        "level_23_sunny_beach_data.wad",
+
+        "level_25_ocean_speedway_code.ovl",
+        "level_25_ocean_speedway_data.wad",
+
+        "level_26_crushs_dungeon_code.ovl",
+        "level_26_crushs_dungeon_data.wad",
+
+        "level_30_autumn_plains_code.ovl",
+        "level_30_autumn_plains_data.wad",
+
+        "level_31_skelos_badlands_code.ovl",
+        "level_31_skelos_badlands_data.wad",
+
+        "level_32_crystal_glacier_code.ovl",
+        "level_32_crystal_glacier_data.wad",
+
+        "level_33_breeze_harbor_code.ovl",
+        "level_33_breeze_harbor_data.wad",
+
+        "level_34_zephyr_code.ovl",
+        "level_34_zephyr_data.wad",
+
+        "level_35_metro_speedway_code.ovl",
+        "level_35_metro_speedway_data.wad",
+
+        "level_41_scorch_code.ovl",
+        "level_41_scorch_data.wad",
+
+        "level_42_shady_oasis_code.ovl",
+        "level_42_shady_oasis_data.wad",
+
+        "level_43_magma_cone_code.ovl",
+        "level_43_magma_cone_data.wad",
+
+        "level_44_fracture_hills_code.ovl",
+        "level_44_fracture_hills_data.wad",
+
+        "level_45_icy_speedway_code.ovl",
+        "level_45_icy_speedway_data.wad",
+
+        "level_46_gulps_overlook_code.ovl",
+        "level_46_gulps_overlook_data.wad",
+
+        "level_50_winter_tundra_code.ovl",
+        "level_50_winter_tundra_data.wad",
+
+        "level_51_mystic_marsh_code.ovl",
+        "level_51_mystic_marsh_data.wad",
+
+        "level_52_cloud_temples_code.ovl",
+        "level_52_cloud_temples_data.wad",
+
+        "level_55_canyon_speedway_code.ovl",
+        "level_55_canyon_speedway_data.wad",
+
+        "level_61_robotica_farms_code.ovl",
+        "level_61_robotica_farms_data.wad",
+
+        "level_62_metropolis_code.ovl",
+        "level_62_metropolis_data.wad",
+
+        "level_65_dragon_shores_code.ovl",
+        "level_65_dragon_shores_data.wad",
+
+        "level_66_riptos_arena_code.ovl",
+        "level_66_riptos_arena_data.wad",
+
+        // More unkowns
+        // Every other file is empty for a little bit for some reason
+        "empty1.wad",
+
+        "73.wad",
+
+        "empty2.wad",
+
+        "75.wad",
+
+        "empty3.wad",
+
+        "77.wad",
+
+        "empty4.wad",
+
+        "79.wad",
+
+        "empty5.wad",
+
+        "81.wad",
+
+        "empty6.wad",
+
+        "83.wad",
+
+        "empty7.wad",
+
+        "85.wad",
+
+        "empty8.wad",
+
+        "87.wad",
+
+        "empty9.wad",
+
+        "89.wad",
+
+        "empty10.wad",
+
+        "91.wad",
+
+        "empty11.wad",
+
+        "93.wad",
+
+        "empty12.wad",
+
+        // Normal unkowns for a bit
+        "95.wad",
+        "96.wad",
+        "97.wad",
+        "98.wad",
+        "99.wad",
+        "100.wad",
+        "101.wad",
+        "102.wad",
+        "103.wad",
+        "104.wad",
+        "105.wad",
+        "106.wad",
+        "107.wad",
+        "108.wad",
+        "109.wad",
+        "110.wad",
+        "111.wad",
+        "112.wad",
+        "113.wad",
+        "114.wad",
+        "115.wad",
+        "116.wad",
+        "117.wad",
+        "118.wad",
+        "119.wad",
+        "120.wad",
+        "121.wad",
+        "122.wad",
+        "123.wad",
+        "124.wad",
+        "125.wad",
+        "126.wad",
+        "127.wad",
+        "128.wad",
+        "129.wad",
+        "130.wad",
+        "131.wad",
+        "132.wad",
+        "133.wad",
+
+        // For a while, it's going to alternate between 3 empty files and 2 normal unknown files
+        "empty13.wad",
+        "empty14.wad",
+        "empty15.wad",
+
+        "137.wad",
+        "138.wad",
+
+        "empty16.wad",
+        "empty17.wad",
+        "empty18.wad",
+
+        "142.wad",
+        "143.wad",
+
+        "empty19.wad",
+        "empty20.wad",
+        "empty21.wad",
+
+        "147.wad",
+        "148.wad",
+
+        "empty22.wad",
+        "empty23.wad",
+        "empty24.wad",
+
+        "152.wad",
+        "153.wad",
+
+        "empty25.wad",
+        "empty26.wad",
+        "empty27.wad",
+
+        "157.wad",
+        "158.wad",
+
+        "empty28.wad",
+        "empty29.wad",
+        "empty30.wad",
+
+        "162.wad",
+        "163.wad",
+
+        "empty31.wad",
+        "empty32.wad",
+        "empty33.wad",
+
+        "167.wad",
+        "168.wad",
+
+        "empty34.wad",
+        "empty35.wad",
+        "empty36.wad",
+
+        "172.wad",
+        "173.wad",
+
+        "empty37.wad",
+        "empty38.wad",
+        "empty39.wad",
+        
+        "177.wad",
+        "178.wad",
+
+        "empty40.wad",
+        "empty41.wad",
+        "empty42.wad",
+
+        "182.wad",
+        "183.wad",
+
+        "empty43.wad",
+        "empty44.wad",
+        "empty45.wad",
+
+        // The rest are simply unknown
+        "187.wad",
+        "188.wad",
+        "189.wad",
+        "190.wad",
+        "191.wad",
+        "192.wad",
+        "193.wad",
+        "194.wad",
+        "195.wad",
+        "196.wad"
+    ],
+    documented: true
+};
+
+
+
 static S3_NTSC_1_0: Wad = Wad {
     name: "Spyro: Year of the Dragon (NTSC 1.0)",
     filenames: &[
@@ -429,7 +722,7 @@ static S3_NTSC_1_0: Wad = Wad {
 
         // Level data
         // I should note here that the level overlays in Spyro 3 are ""encrypted""
-        // The chipher is very easy, starting from $1000 you XOR every value (as a DWORD) with the address specified at $4 (the address itself, not dereferenced)
+        // The cipher is very easy, starting from $1000 you XOR every value (as a DWORD) with the address specified at $4 (the address itself, not dereferenced)
         // Decryption stops at the value specified at $4.
 
         // Overlays are loaded at $800742d0 in this build
@@ -587,6 +880,7 @@ pub fn get_wad_by_checksum(crc: u32) -> &'static Wad<'static> {
         0xCBADB0E9 => &S1_JULY_PROTO,
         0x9E352E51 => &S1_JUNE_PROTO,
         0xEEEFDD83 => &S1_NTSC_FINAL,
+        0x66CCeC8C => &S2_NTSC_FINAL,
         0x5886EC7D => &S3_NTSC_1_0,
         _ => &UNKNOWN_WAD
     }
