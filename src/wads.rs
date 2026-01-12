@@ -309,18 +309,18 @@ static S2_NTSC_FINAL: Wad = Wad {
         // Unknown
         "0.wad",
         "1.wad",
-        "2.wad",
-        "3.wad",
-        "4.wad",
+        "japanesefont.wad",
+        "titlescreen_data.wad",
+        "guidebook.wad",
         "5.wad",
-        "6.wad",
-        "7.wad",
-        "8.wad",
+        "gameover.wad",
+        "credits_code.wad",
+        "adventurecontinues.wad",
         "9.wad",
-        "10.wad",
+        "pausemenu.wad",
         "11.wad",
-        "12.wad",
-        "13.wad",
+        "epiloguecover.wad",
+        "epilogue.wad",
 
         // Level overlay and data wads
         // Overlays are loaded at $8006d264 in this build
@@ -412,56 +412,56 @@ static S2_NTSC_FINAL: Wad = Wad {
         "level_66_riptos_arena_code.ovl",
         "level_66_riptos_arena_data.wad",
 
-        // More unkowns
+        // More unknowns
         // Every other file is empty for a little bit for some reason
         "empty1.wad",
 
-        "73.wad",
+        "cutscene1.wad",
 
         "empty2.wad",
 
-        "75.wad",
+        "cutscene2.wad",
 
         "empty3.wad",
 
-        "77.wad",
+        "cutscene3.wad",
 
         "empty4.wad",
 
-        "79.wad",
+        "cutscene4.wad",
 
         "empty5.wad",
 
-        "81.wad",
+        "cutscene5.wad",
 
         "empty6.wad",
 
-        "83.wad",
+        "cutscene6.wad",
 
         "empty7.wad",
 
-        "85.wad",
+        "cutscene7.wad",
 
         "empty8.wad",
 
-        "87.wad",
+        "cutscene8.wad",
 
         "empty9.wad",
 
-        "89.wad",
+        "cutscene9.wad",
 
         "empty10.wad",
 
-        "91.wad",
+        "cutscene10.wad",
 
         "empty11.wad",
 
-        "93.wad",
+        "cutscene11.wad",
 
         "empty12.wad",
 
-        // Normal unkowns for a bit
-        "95.wad",
+        // Might be level cutscenes?
+        "titlescreen.wad",
         "96.wad",
         "97.wad",
         "98.wad",
@@ -576,17 +576,17 @@ static S2_NTSC_FINAL: Wad = Wad {
         "empty44.wad",
         "empty45.wad",
 
-        // The rest are simply unknown
-        "187.wad",
-        "188.wad",
-        "189.wad",
-        "190.wad",
-        "191.wad",
-        "192.wad",
-        "193.wad",
-        "194.wad",
-        "195.wad",
-        "196.wad"
+        // Credits Stuff
+        "creditssummerforest.wad",
+        "creditsglimmer.wad",
+        "creditsidolsprings.wad",
+        "creditscolossus.wad",
+        "creditsaquariatowers.wad",
+        "creditssunnybeach.wad",
+        "creditsskelosbadlands.wad",
+        "creditsscorch.wad",
+        "creditsshadyoasis.wad",
+        "creditscloudtemples.wad"
     ],
     documented: true
 };
