@@ -317,7 +317,7 @@ static S2_NTSC_FINAL: Wad = Wad {
         "credits_code.wad",
         "adventurecontinues.wad",
         "9.wad",
-        "pausemenu.wad",
+        "spyro2demotextures.wad",
         "11.wad",
         "epiloguecover.wad",
         "epilogue.wad",
