@@ -303,7 +303,7 @@ static S1_NTSC_FINAL: Wad = Wad {
 static S2_NTSC_FINAL: Wad = Wad {
     name: "Spyro 2: Ripto's Rage (NTSC Final)",
     filenames: &[
-        "0.wad",
+        "spyro_model.wad",
         "titlescreen_code.ovl",
         "japanese_font.wad",
         "company_logos.bgr555",
