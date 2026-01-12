@@ -300,26 +300,22 @@ static S1_NTSC_FINAL: Wad = Wad {
 
 
 
-// Most of this is information I've gathered from other people on the Mod the Dragon Discord.
-// I am not certain how accurate it all is and have done minimal testing myself.
-// However, I'm 80% certain that the levels are correct at least.
 static S2_NTSC_FINAL: Wad = Wad {
     name: "Spyro 2: Ripto's Rage (NTSC Final)",
     filenames: &[
-        // Unknown
         "0.wad",
-        "1.wad",
-        "japanesefont.wad",
-        "titlescreen_data.wad",
+        "titlescreen_code.ovl",
+        "japanese_font.wad",
+        "company_logos.bgr555",
         "guidebook.wad",
-        "5.wad",
-        "gameover.wad",
-        "credits_code.wad",
-        "adventurecontinues.wad",
-        "9.wad",
-        "spyro2demotextures.wad",
+        "level_transition_skyboxes.wad",
+        "gameover_screen.bgr555",
+        "credits_code.ovl",
+        "adventure_continues_texture.bgr555",
+        "9.ovl",
+        "spyro_2_demo_textures.wad",
         "11.wad",
-        "epiloguecover.wad",
+        "epilogue_cover.wad",
         "epilogue.wad",
 
         // Level overlay and data wads
@@ -412,181 +408,181 @@ static S2_NTSC_FINAL: Wad = Wad {
         "level_66_riptos_arena_code.ovl",
         "level_66_riptos_arena_data.wad",
 
-        // More unknowns
-        // Every other file is empty for a little bit for some reason
+        // Main cutscene level models
         "empty1.wad",
 
-        "cutscene1.wad",
+        "cutscene1_we_need_a_vacation_level.wad",
 
         "empty2.wad",
 
-        "cutscene2.wad",
+        "cutscene2_ive_got_a_dragon_level.wad",
 
         "empty3.wad",
 
-        "cutscene3.wad",
+        "cutscene3_im_a_faun_you_dork_level.wad",
 
         "empty4.wad",
 
-        "cutscene4.wad",
+        "cutscene4_no_dragons_wonderful_level.wad",
 
         "empty5.wad",
 
-        "cutscene5.wad",
+        "cutscene5_bring_it_on_shorty_level.wad",
 
         "empty6.wad",
 
-        "cutscene6.wad",
+        "cutscene6_boo_level.wad",
 
         "empty7.wad",
 
-        "cutscene7.wad",
+        "cutscene7_gulp_lunchtime_level.wad",
 
         "empty8.wad",
 
-        "cutscene8.wad",
+        "cutscene8_spyro_you_did_it_level.wad",
 
         "empty9.wad",
 
-        "cutscene9.wad",
+        "cutscene9_you_little_fools_level.wad",
 
         "empty10.wad",
 
-        "cutscene10.wad",
+        "cutscene10_what_you_again_level.wad",
 
         "empty11.wad",
 
-        "cutscene11.wad",
+        "cutscene11_come_on_sparx_level.wad",
 
         "empty12.wad",
 
-        // Might be level cutscenes?
-        "titlescreen.wad",
-        "96.wad",
-        "97.wad",
-        "98.wad",
-        "99.wad",
-        "100.wad",
-        "101.wad",
-        "102.wad",
-        "103.wad",
-        "104.wad",
-        "105.wad",
-        "106.wad",
-        "107.wad",
-        "108.wad",
-        "109.wad",
-        "110.wad",
-        "111.wad",
-        "112.wad",
-        "113.wad",
-        "114.wad",
-        "115.wad",
-        "116.wad",
-        "117.wad",
-        "118.wad",
-        "119.wad",
-        "120.wad",
-        "121.wad",
-        "122.wad",
-        "123.wad",
-        "124.wad",
-        "125.wad",
-        "126.wad",
-        "127.wad",
-        "128.wad",
-        "129.wad",
-        "130.wad",
-        "131.wad",
-        "132.wad",
-        "133.wad",
+        // Level cutscenes
+        "titlescreen_level.wad",
+        "titlescreen_models.wad",
+        "level_11_glimmer_outro.wad",
+        "level_12_idol_springs_intro.wad",
+        "level_12_idol_springs_outro.wad",
+        "level_13_colossus_intro.wad",
+        "level_13_colossus_outro.wad",
+        "level_21_hurricos_intro.wad",
+        "level_21_hurricos_outro.wad",
+        "level_22_aquaria_towers_intro.wad",
+        "level_22_aquaria_towers_outro.wad",
+        "level_23_sunny_beach_intro.wad",
+        "level_23_sunny_beach_outro.wad",
+        "level_31_skelos_badlands_intro.wad",
+        "level_31_skelos_badlands_outro.wad",
+        "level_32_crystal_glacier_intro.wad",
+        "level_32_crystal_glacier_outro.wad",
+        "level_33_breeze_harbor_intro.wad",
+        "level_33_breeze_harbor_outro.wad",
+        "level_34_zephyr_intro.wad",
+        "level_34_zephyr_outro.wad",
+        "level_41_scorch_intro.wad",
+        "level_41_scorch_outro.wad",
+        "level_42_shady_oasis_intro.wad",
+        "level_42_shady_oasis_outro.wad",
+        "level_43_magma_cone_intro.wad",
+        "level_43_magma_cone_outro.wad",
+        "level_44_fracture_hills_intro.wad",
+        "level_44_fracture_hills_outro.wad",
+        "level_51_mystic_marsh_intro.wad",
+        "level_51_mystic_marsh_outro.wad",
+        "level_52_cloud_temples_intro.wad",
+        "level_52_cloud_temples_outro.wad",
+        "level_61_robotica_farms_intro.wad",
+        "level_61_robotica_farms_outro.wad",
+        "level_62_metropolis_intro.wad",
+        "level_62_metropolis_outro.wad",
+		
+		// Main cutscene models
+        "cutscene1_we_need_a_vacation_1.wad",
+        "cutscene1_we_need_a_vacation_2.wad",
 
-        // For a while, it's going to alternate between 3 empty files and 2 normal unknown files
         "empty13.wad",
         "empty14.wad",
         "empty15.wad",
 
-        "137.wad",
-        "138.wad",
+        "cutscene2_ive_got_a_dragon_1.wad",
+        "cutscene2_ive_got_a_dragon_2.wad",
 
         "empty16.wad",
         "empty17.wad",
         "empty18.wad",
 
-        "142.wad",
-        "143.wad",
+        "cutscene3_im_a_faun_you_dork_1.wad",
+        "cutscene3_im_a_faun_you_dork_2.wad",
 
         "empty19.wad",
         "empty20.wad",
         "empty21.wad",
 
-        "147.wad",
-        "148.wad",
+        "cutscene4_no_dragons_wonderful_1.wad",
+        "cutscene4_no_dragons_wonderful_2.wad",
 
         "empty22.wad",
         "empty23.wad",
         "empty24.wad",
 
-        "152.wad",
-        "153.wad",
+        "cutscene5_bring_it_on_shorty_1.wad",
+        "cutscene5_bring_it_on_shorty_2.wad",
 
         "empty25.wad",
         "empty26.wad",
         "empty27.wad",
 
-        "157.wad",
-        "158.wad",
+        "cutscene6_boo_1.wad",
+        "cutscene6_boo_2.wad",
 
         "empty28.wad",
         "empty29.wad",
         "empty30.wad",
 
-        "162.wad",
-        "163.wad",
+        "cutscene7_gulp_lunchtime_1.wad",
+        "cutscene7_gulp_lunchtime_2.wad",
 
         "empty31.wad",
         "empty32.wad",
         "empty33.wad",
 
-        "167.wad",
-        "168.wad",
+        "cutscene8_spyro_you_did_it_1.wad",
+        "cutscene8_spyro_you_did_it_2.wad",
 
         "empty34.wad",
         "empty35.wad",
         "empty36.wad",
 
-        "172.wad",
-        "173.wad",
+        "cutscene9_you_little_fools_1.wad",
+        "cutscene9_you_little_fools_2.wad",
 
         "empty37.wad",
         "empty38.wad",
         "empty39.wad",
         
-        "177.wad",
-        "178.wad",
+        "cutscene10_what_you_again_1.wad",
+        "cutscene10_what_you_again_2.wad",
 
         "empty40.wad",
         "empty41.wad",
         "empty42.wad",
 
-        "182.wad",
-        "183.wad",
+        "cutscene11_come_on_sparx_1.wad",
+        "cutscene11_come_on_sparx_2.wad",
 
         "empty43.wad",
         "empty44.wad",
         "empty45.wad",
 
         // Credits Stuff
-        "creditssummerforest.wad",
-        "creditsglimmer.wad",
-        "creditsidolsprings.wad",
-        "creditscolossus.wad",
-        "creditsaquariatowers.wad",
-        "creditssunnybeach.wad",
-        "creditsskelosbadlands.wad",
-        "creditsscorch.wad",
-        "creditsshadyoasis.wad",
-        "creditscloudtemples.wad"
+        "credits_summer_forest.wad",
+        "credits_glimmer.wad",
+        "credits_idol_springs.wad",
+        "credits_colossus.wad",
+        "credits_aquaria_towers.wad",
+        "credits_sunny_beach.wad",
+        "credits_skelos_badlands.wad",
+        "credits_scorch.wad",
+        "credits_shady_oasis.wad",
+        "credits_cloud_temples.wad"
     ],
     documented: true
 };
