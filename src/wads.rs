@@ -493,84 +493,86 @@ static S2_NTSC_FINAL: Wad = Wad {
         "level_61_robotica_farms_outro.wad",
         "level_62_metropolis_intro.wad",
         "level_62_metropolis_outro.wad",
-		
-		// Main cutscene models
-        "cutscene1_we_need_a_vacation_1.wad",
-        "cutscene1_we_need_a_vacation_2.wad",
 
-        "empty13.wad",
-        "empty14.wad",
-        "empty15.wad",
+        // Main cutscene models
+        // All German, Spanish, and Italian cutscenes are completely empty
+        // Oddly enough the French cutscenes are fully intact and functional
+        "cutscene1_we_need_a_vacation_english.wad",
+        "cutscene1_we_need_a_vacation_french.wad",
 
-        "cutscene2_ive_got_a_dragon_1.wad",
-        "cutscene2_ive_got_a_dragon_2.wad",
+        "cutscene1_we_need_a_vacation_german.wad",
+        "cutscene1_we_need_a_vacation_spanish.wad",
+        "cutscene1_we_need_a_vacation_italian.wad",
 
-        "empty16.wad",
-        "empty17.wad",
-        "empty18.wad",
+        "cutscene2_ive_got_a_dragon_english.wad",
+        "cutscene2_ive_got_a_dragon_french.wad",
 
-        "cutscene3_im_a_faun_you_dork_1.wad",
-        "cutscene3_im_a_faun_you_dork_2.wad",
+        "cutscene2_ive_got_a_dragon_german.wad",
+        "cutscene2_ive_got_a_dragon_spanish.wad",
+        "cutscene2_ive_got_a_dragon_italian.wad",
 
-        "empty19.wad",
-        "empty20.wad",
-        "empty21.wad",
+        "cutscene3_im_a_faun_you_dork_english.wad",
+        "cutscene3_im_a_faun_you_dork_french.wad",
 
-        "cutscene4_no_dragons_wonderful_1.wad",
-        "cutscene4_no_dragons_wonderful_2.wad",
+        "cutscene3_im_a_faun_you_dork_german.wad",
+        "cutscene3_im_a_faun_you_dork_spanish.wad",
+        "cutscene3_im_a_faun_you_dork_italian.wad",
 
-        "empty22.wad",
-        "empty23.wad",
-        "empty24.wad",
+        "cutscene4_no_dragons_wonderful_english.wad",
+        "cutscene4_no_dragons_wonderful_french.wad",
 
-        "cutscene5_bring_it_on_shorty_1.wad",
-        "cutscene5_bring_it_on_shorty_2.wad",
+        "cutscene4_no_dragons_wonderful_german.wad",
+        "cutscene4_no_dragons_wonderful_spanish.wad",
+        "cutscene4_no_dragons_wonderful_italian.wad",
 
-        "empty25.wad",
-        "empty26.wad",
-        "empty27.wad",
+        "cutscene5_bring_it_on_shorty_english.wad",
+        "cutscene5_bring_it_on_shorty_french.wad",
 
-        "cutscene6_boo_1.wad",
-        "cutscene6_boo_2.wad",
+        "cutscene5_bring_it_on_shorty_german.wad",
+        "cutscene5_bring_it_on_shorty_spanish.wad",
+        "cutscene5_bring_it_on_shorty_italian.wad",
 
-        "empty28.wad",
-        "empty29.wad",
-        "empty30.wad",
+        "cutscene6_boo_english.wad",
+        "cutscene6_boo_french.wad",
 
-        "cutscene7_gulp_lunchtime_1.wad",
-        "cutscene7_gulp_lunchtime_2.wad",
+        "cutscene6_boo_german.wad",
+        "cutscene6_boo_spanish.wad",
+        "cutscene6_boo_italian.wad",
 
-        "empty31.wad",
-        "empty32.wad",
-        "empty33.wad",
+        "cutscene7_gulp_lunchtime_english.wad",
+        "cutscene7_gulp_lunchtime_french.wad",
 
-        "cutscene8_spyro_you_did_it_1.wad",
-        "cutscene8_spyro_you_did_it_2.wad",
+        "cutscene7_gulp_lunchtime_german.wad",
+        "cutscene7_gulp_lunchtime_spanish.wad",
+        "cutscene7_gulp_lunchtime_italian.wad",
 
-        "empty34.wad",
-        "empty35.wad",
-        "empty36.wad",
+        "cutscene8_spyro_you_did_it_english.wad",
+        "cutscene8_spyro_you_did_it_french.wad",
 
-        "cutscene9_you_little_fools_1.wad",
-        "cutscene9_you_little_fools_2.wad",
+        "cutscene8_spyro_you_did_it_german.wad",
+        "cutscene8_spyro_you_did_it_spanish.wad",
+        "cutscene8_spyro_you_did_it_italian.wad",
 
-        "empty37.wad",
-        "empty38.wad",
-        "empty39.wad",
+        "cutscene9_you_little_fools_english.wad",
+        "cutscene9_you_little_fools_french.wad",
+
+        "cutscene9_you_little_fools_german.wad",
+        "cutscene9_you_little_fools_spanish.wad",
+        "cutscene9_you_little_fools_italian.wad",
         
-        "cutscene10_what_you_again_1.wad",
-        "cutscene10_what_you_again_2.wad",
+        "cutscene10_what_you_again_english.wad",
+        "cutscene10_what_you_again_french.wad",
 
-        "empty40.wad",
-        "empty41.wad",
-        "empty42.wad",
+        "cutscene10_what_you_again_german.wad",
+        "cutscene10_what_you_again_spanish.wad",
+        "cutscene10_what_you_again_italian.wad",
 
-        "cutscene11_come_on_sparx_1.wad",
-        "cutscene11_come_on_sparx_2.wad",
+        "cutscene11_come_on_sparx_english.wad",
+        "cutscene11_come_on_sparx_french.wad",
 
-        "empty43.wad",
-        "empty44.wad",
-        "empty45.wad",
+        "cutscene11_come_on_sparx_german.wad",
+        "cutscene11_come_on_sparx_spanish.wad",
+        "cutscene11_come_on_sparx_italian.wad",
 
         // Credits Stuff
         "credits_summer_forest.wad",
